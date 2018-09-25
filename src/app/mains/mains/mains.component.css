@@ -1,0 +1,26 @@
+#main{
+
+  padding:10px;
+}
+
+.control{
+  margin-top:5px;
+
+}
+.control h3{
+  text-align: center;
+  font-size:16px;
+  color:green;
+  margin-bottom:10px;
+}
+
+.control-panel{
+  display:flex;
+  justify-content: space-between;
+}
+.mybtn{
+
+  color: red;
+  font-size:15px;
+  outline: 0;
+}

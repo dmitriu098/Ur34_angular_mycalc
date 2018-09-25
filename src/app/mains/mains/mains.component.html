@@ -1,0 +1,48 @@
+<section id="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="text-center">{{title}}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 m-auto">
+        <div class="row">
+          <div class="col-lg-8">
+
+            <div class="form-group">
+              <label for="number1">Первое число</label>
+              <input type="text" class="form-control" id="number1" [(ngModel)]="num1">
+            </div>
+            <div class="form-group">
+              <label for="number2">Второе число</label>
+              <input type="text" class="form-control" id="number2" [(ngModel)]="num2">
+            </div>
+
+            <div class="form-group">
+              <label for="result">Результат</label>
+              <input type="text" class="form-control" id="result" [(ngModel)]="res">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="control">
+              <h3>Выберите действие</h3>
+              <div class="control-panel">
+                <a href="/" class="btn btn-primary mybtn" (click)="onSum(num1, num2)">+</a>
+                <a href="/" class="btn btn-primary mybtn" (click)="onDiffer(num1, num2)">-</a>
+                <a href="/" class="btn btn-primary mybtn" (click)="onMult(num1, num2)">*</a>
+                <a href="/" class="btn btn-primary mybtn" (click)="onDivs(num1, num2)">/</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
